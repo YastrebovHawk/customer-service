@@ -4,6 +4,7 @@ Web-сервис CustomerService
 1. Создать пользователя Postgresql:
 
 `CREATE USER customer WITH PASSWORD '123';`
+
 2. Создать бд customer_service, customer_service_test:
 
 `CREATE DATABASE customer_service;`
@@ -13,6 +14,7 @@ Web-сервис CustomerService
 `CREATE DATABASE customer_service_test;`
 
 `ALTER DATABASE customer_service_test OWNER TO customer;`
+
 3. Создать таблицы customer и address в каждой бд:
 
 ```
